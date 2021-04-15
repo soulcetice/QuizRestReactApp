@@ -31,7 +31,7 @@ namespace WebAPI.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("answers")
-                        .HasColumnType("nvarchar(1000)");
+                        .HasColumnType("nvarchar(160)");
 
                     b.HasKey("id");
 

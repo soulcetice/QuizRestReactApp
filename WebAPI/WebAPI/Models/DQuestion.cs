@@ -11,7 +11,7 @@ namespace WebAPI.Models
         [Column(TypeName ="nvarchar(100)")]
         public string questionText { get; set; }
 
-        [Column(TypeName = "nvarchar(1000)")]
+        [Column(TypeName = "nvarchar(160)")]
         public string answers { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
